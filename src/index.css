@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: "Custom-1";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sora:wght@300;400&display=swap");
+}
+
+@font-face {
+  font-family: "Custom-2";
+  src: url("/src/Recoleta-RegularDEMO.otf");
+}
