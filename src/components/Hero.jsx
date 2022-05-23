@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className="max-w-[1240px] w-full h-screen grid md:grid-cols-2 mx-auto px-4 pt-16">
       {/* image part */}
-      <div className="relative left-[0px] top-[400px] md:left-[278px] md:top-[106px] lg:left-[508px] right-0">
+      <div className="relative left-[0px] top-[350px] md:left-[278px] md:top-[176px] lg:left-[408px] right-0">
         <img src={Group} alt="group" className="object-fit" />
       </div>
       {/* text-part */}
       <div className="text-left absolute">
-        <h1 className="text-[#03071e] w-[80%] lg:w-[60%] font-custom2 text-3xl md:text-6xl font-extrabold">
+        <h1 className="text-[#03071e] w-[80%] lg:w-[60%] font-custom2 text-3xl md:text-8xl font-extrabold">
           Your Gateway to Emerging Markets
         </h1>
         <p className="text-[#727987] w-[80%] lg:w-[55%] font-custom1 text-[26px] leading-[35px] mt-1 py-5 ">
